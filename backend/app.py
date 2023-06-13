@@ -18,8 +18,8 @@ from azure.core.credentials import AzureKeyCredential
 import azure.cognitiveservices.speech as speechsdk
 from werkzeug.utils import secure_filename
 
-from dotenv import load_dotenv
-load_dotenv()
+#from dotenv import load_dotenv
+#load_dotenv()
 
 # Replace these with your own values, either in environment variables or directly here
 AZURE_BLOB_STORAGE_ACCOUNT = os.environ.get("AZURE_BLOB_STORAGE_ACCOUNT") or "openaidemostorageaccount"
